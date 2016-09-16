@@ -42,7 +42,7 @@ Recently Pathfinder was accepted as an example of how to use FANN on the [Offici
 
 
 ## Basic
-This is the simplest example of Pathfinder and is the version that is included with the Official FANN r1epo.
+This is the simplest example of Pathfinder and is the version that is included with the Official FANN repo.
 
 * [pathfinder_train.php](Basic/pathfinder_train.php)
 
