@@ -10,7 +10,7 @@ To keep the Pathfinder example simple it is not trained to deal with walls or no
 Recently Pathfinder was accepted as an example of how to use FANN on the [Official PHP FANN Github](https://github.com/bukka/php-fann).
 
 
-### For more Information: 
+## For more Information: 
 
 * [Official PHP FANN Github](https://github.com/bukka/php-fann)
 
