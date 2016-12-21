@@ -37,9 +37,9 @@ Recently Pathfinder was accepted as an example of how to use FANN on the [Offici
 
 
 ## Videos
-* [Demonstration](Videos/Demonstration.m4v) This video demonstrates how Pathfinder navigates around the grid. 
+* [Download Demonstration](Videos/Demonstration.m4v) This video demonstrates how Pathfinder navigates around the grid. [View on Youtube](https://www.youtube.com/watch?v=0zSrQh-wqxM) 
 
-* [Encode & Decode](Videos/Encode_Decode_Grid.mp4) This video illustrates how to encode and decode grid values when working with Pathfinder. 
+* [Download Encode & Decode](Videos/Encode_Decode_Grid.mp4) This video illustrates how to encode and decode grid values when working with Pathfinder. [View on Youtube](https://www.youtube.com/watch?v=jMNFCYP8Ixs)
 
 
 ## Basic
