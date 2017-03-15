@@ -15,13 +15,13 @@ Recently Pathfinder was accepted as an example of how to use FANN on the [Offici
 
 * [Official PHP FANN Github](https://github.com/bukka/php-fann)
 
-* [Pathfinder Tutorial Part 1](http://www.joyharvel.com/pathfinding-from-scratch-using-a-neural-network/)
+* [Pathfinder Tutorial Part 1](https://geekgirljoy.wordpress.com/2016/09/07/pathfinding-from-scratch-using-a-neural-network/)
 
-* [Getting Started with Neural Networks Part 1](http://www.joyharvel.com/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io/)
+* [Getting Started with Neural Networks Part 1](https://geekgirljoy.wordpress.com/2016/07/12/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io/)
 
-* [Getting Started with Neural Networks Part 2](http://www.joyharvel.com/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io-part-2/)
+* [Getting Started with Neural Networks Part 2](https://geekgirljoy.wordpress.com/2016/07/24/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io-part-2/)
 
-* [Getting Started with Neural Networks Part 3](http://www.joyharvel.com/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io-part-3/)
+* [Getting Started with Neural Networks Part 3](https://geekgirljoy.wordpress.com/2016/08/02/getting-started-with-neural-networks-using-the-fann-library-php-and-c9-io-part-3/)
 
 
 ## Special thanks to & Music by: Phantom Sage
