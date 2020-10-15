@@ -10,7 +10,13 @@ To keep the Pathfinder example simple it is not trained to deal with walls or no
 Pathfinder was accepted as an example of how to use FANN on the [Official PHP FANN Github](https://github.com/bukka/php-fann).
 
 
-## Basic
+## Online / JS Version
+This version of Pathfinder is implemented using [FANN.js](https://github.com/louisstow/fann.js/) and a live version is available on GitHub Pages.
+
+**Live Preview:** [https://geekgirljoy.github.io/Pathfinder_Neural_Network/](https://geekgirljoy.github.io/Pathfinder_Neural_Network/)
+
+
+## Basic / PHP Version
 This is the simplest example of Pathfinder and is the version that is included with the Official [PHP FANN](https://github.com/bukka/php-fann) repo.
 
 * [pathfinder_train.php](Basic/pathfinder_train.php)
