@@ -3,13 +3,24 @@
 
 # Pathfinder Neural Network 
 
-Recently I designed and created a neural network I dubbed 'Pathfinder' using PHP and the FANN Library. Pathfinder is an example of a neural network that is capable of plotting an 8 direction step path from a starting position in a 5x5 grid to an ending position in that grid. 
+I designed and created a neural network I dubbed 'Pathfinder' using PHP and the FANN Library. Pathfinder is an example of a neural network that is capable of plotting an 8 direction step path (cardinal points + diagonals) from a starting position in a 5x5 grid to an ending position in that grid. 
 
 To keep the Pathfinder example simple it is not trained to deal with walls or non-traversable terrain however it would be very easy to add that by adding additional training. 
 
-Recently Pathfinder was accepted as an example of how to use FANN on the [Official PHP FANN Github](https://github.com/bukka/php-fann).
+Pathfinder was accepted as an example of how to use FANN on the [Official PHP FANN Github](https://github.com/bukka/php-fann).
+
+
+## Basic
+This is the simplest example of Pathfinder and is the version that is included with the Official [PHP FANN](https://github.com/bukka/php-fann) repo.
+
+* [pathfinder_train.php](Basic/pathfinder_train.php)
+
+* [pathfinder_test.php](Basic/pathfinder_test.php)
+
+* [pathfinder.data](Basic/pathfinder.data)
 
 *Note* PHP FANN is required for the code contained in this repo to run.
+
 
 ## For more Information: 
 
@@ -40,14 +51,4 @@ Recently Pathfinder was accepted as an example of how to use FANN on the [Offici
 * [Download Demonstration](Videos/Demonstration.m4v) This video demonstrates how Pathfinder navigates around the grid. [View on Youtube](https://www.youtube.com/watch?v=0zSrQh-wqxM) 
 
 * [Download Encode & Decode](Videos/Encode_Decode_Grid.mp4) This video illustrates how to encode and decode grid values when working with Pathfinder. [View on Youtube](https://www.youtube.com/watch?v=jMNFCYP8Ixs)
-
-
-## Basic
-This is the simplest example of Pathfinder and is the version that is included with the Official FANN repo.
-
-* [pathfinder_train.php](Basic/pathfinder_train.php)
-
-* [pathfinder_test.php](Basic/pathfinder_test.php)
-
-* [pathfinder.data](Basic/pathfinder.data)
 

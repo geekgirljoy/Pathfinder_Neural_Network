@@ -1,0 +1,123 @@
+body{
+    background-color: #0060ff;
+}
+
+h1{
+    margin: auto;
+    width: 465px;
+    font-family: 'Pacifico';
+    color: #0060ff;
+}
+
+p{
+    font-family: Verdana;
+}
+
+#start_button{
+    background-color: #60ff00;
+    
+}
+
+#stop_button{
+    background-color: #ff0060;
+}
+
+#clear_button{
+    background-color: #ff6000;
+}
+
+#pathfind_button{
+    background-color: #0060ff;
+    font-size: 18px;
+}
+
+#training_spinner {
+    border: 12px solid gray;
+    border-top: 12px solid #00ff60;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    animation: spin 1s linear infinite;
+}
+
+#grid_actions{
+    display:none;
+}
+
+#game_grid_container{
+    display:none;
+}
+
+#game_grid{
+    background-color: #888888;
+    display: grid;
+    column-gap: 3px;
+    row-gap: 3px;
+    grid-template-columns: repeat(5, 90px);
+    grid-auto-rows: 90px;
+}
+
+#pathfind_button_container{
+    display:none;
+}
+
+.ui_button{
+    border: none;
+    color: black;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    height: 59px;
+}
+
+.center{
+    background-color: #ffffff;
+    margin: auto;
+    width: 465px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.grid_button{
+    background-color: #cccccc;
+    border: none;
+    color: white;
+    padding: 42px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.grid_button_start{
+    background-color: #60ff00;
+}
+
+.grid_button_stop{
+    background-color: #ff0060;
+}
+
+.grid_button_step{
+    background-color: #0060ff;
+}
+
+.selecting_start:hover{
+    background-color: #60ff00;
+}
+
+.selecting_stop:hover{
+    background-color: #ff0060;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@font-face{
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}

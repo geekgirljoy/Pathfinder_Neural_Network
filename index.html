@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pathfinder Online</title>
+        <link rel="stylesheet" type="text/css" href="./Online/css/style.css">
+    </head>
+    <body>
+    
+        <div class='center'>
+            <center>
+                <h1 id='title'>Please Wait</h1>
+            </center>
+        </div>
+        
+        <div class='center'>
+            <center>
+                <p id='message'>The Pathfinder neural network is being trained, it won't take long please wait.</p>
+                <p id='message2'><b>Note:</b> This will take longer on a mobile device.</p>
+                <div id="training_spinner"></div>
+            </center>
+        </div>
+            
+        <div id='grid_actions' class='center'>
+            <center>
+                <button id='start_button' class='ui_button' onclick="SettingStartStop(0)">Set Start</button> 
+                <button id='stop_button' class='ui_button' onclick="SettingStartStop(1)">Set Stop</button>
+                <button id='clear_button' class='ui_button' onclick='ClearGrid()'>Clear All</button>
+            </center>
+        </div>
+
+        <div id="game_grid_container" class='center'>
+            <div id="game_grid">
+              <div><button id='zero' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='one' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='two' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='three' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='four' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='five' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='six' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='seven' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='eight' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='nine' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='ten' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='eleven' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twelve' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='thirteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='fourteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='fifteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='sixteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='seventeen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='eighteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='nineteen' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twenty' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twentyone' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twentytwo' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twentythree' class='grid_button' onclick="Select(this)"></button></div>
+              <div><button id='twentyfour' class='grid_button' onclick="Select(this)"></button></div>
+            </div>
+        </div>
+        
+        <div id='pathfind_button_container' class='center'>
+            <center>
+                <button id='pathfind_button' class='ui_button' onclick="Pathfind()">Pathfind</button>
+            </center>
+        </div>
+
+        <script async src="./Online/js/fann.js-master/fann.js"></script>
+        <script async src="./Online/js/pathfinder.js"></script>
+
+    </body>
+</html>
