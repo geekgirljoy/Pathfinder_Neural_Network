@@ -52,3 +52,4 @@ This is the simplest example of Pathfinder and is the version that is included w
 
 * [Download Encode & Decode](Videos/Encode_Decode_Grid.mp4) This video illustrates how to encode and decode grid values when working with Pathfinder. [View on Youtube](https://www.youtube.com/watch?v=jMNFCYP8Ixs)
 
+
